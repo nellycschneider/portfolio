@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap");
+
+.skills {
+  font-family: "Josefin Sans", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  flex-direction: column;
+  padding-bottom: 36px;
+  margin-top: 36px;
+}
+
+.title {
+  padding: 16px 0px;
+  font-size: 24px;
+}
+
+.all-skills-2 {
+  padding: 6px 8px;
+  background-color: rgb(160, 242, 250);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 4px;
+  margin-right: 6px;
+  margin-bottom: 4px;
+  color: black;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 720px) {
+  .all-skills {
+    display: flex;
+    max-width: 90%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .all-skills-2 {
+    margin-top: 6px;
+  }
+}

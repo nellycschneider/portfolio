@@ -1,24 +1,33 @@
-import React from 'react';
-import { Link } from 'gatsby';
+import React, { useState } from "react";
+import { Link } from "gatsby";
 
-import Container from 'components/Container';
+import WebHeader from "components/WebHeader";
+import MobileHeader from "components/MobileHeader";
+
+import img_squiggle from "../assets/images/squiggles.png";
+import openMenu from "../assets/images/icons/menu.png";
 
 const Header = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <header>
-      <Container>
-        <p>
-          My Gatsby Site
-        </p>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/page-2/">Page 2</Link>
-          </li>
-        </ul>
-      </Container>
+      <div className="logo">
+        <Link to="/">
+          <img src={img_squiggle} alt="squiggly line" />
+        </Link>
+      </div>
+      <div className="menu">
+        <div className="web-menu">
+          <WebHeader />
+        </div>
+        <div className="mobile-menu">
+          <div className="hamburger" onClick={() => setIsOpen(!isOpen)}>
+            <img src={openMenu} alt="squiggly line" />
+            {isOpen && <MobileHeader isOpen={isOpen} setIsOpen={setIsOpen}/>}
+          </div>
+        </div>
+      </div>
     </header>
   );
 };
