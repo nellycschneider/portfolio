@@ -1,18 +1,18 @@
 import React from 'react';
+import { Helmet } from "react-helmet"
 
 import Layout from 'components/Layout';
 import AboutSection from '../components/AboutSection'
 import ProjectsSection from '../components/ProjectsSection'
 import SkillsSection from '../components/SkillsSection'
-import WorkSection from '../components/WorkSection'
 import ContactSection from '../components/ContactSection'
-import Footer from '../components/Footer'
-
-import img_profile from 'assets/images/creepy_profile_pic.png';
 
 const IndexPage = () => {
   return (
     <Layout pageName="home">
+      <Helmet>
+        <meta name="icon" href="/src/assets/images/nelly_moon.png" />
+      </Helmet>
       <div className="red-circle"></div>
       <div className="yellow-circle"></div>
       <div className="green-circle"></div>
