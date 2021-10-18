@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap");
+
+.contact {
+  font-family: "Josefin Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: black;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 16px 0px;
+}
+.contact-left {
+  max-width: 60%;
+  text-align: center;
+
+  p {
+    font-size: 20px;
+  }
+}
+
+.download {
+  background-color: rgb(255, 207, 77);
+  padding: 8px 16px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: dotted;
+  border-radius: 4px;
+  //   border-color: rgb(127, 255, 244);
+  margin-top: 24px;
+  cursor: require("../../images/curly_cursor.png"), pointer;
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.contact-bottom {
+  padding-top: 12px;
+}
+
+@media only screen and(max-width: 720px) {
+  .contact-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-left {
+    max-width: 100%;
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+  .download {
+    font-size: 20px;
+    margin-top: 12px;
+  }
+  .contact-bottom {
+    padding-top: 64px;
+  }
+}

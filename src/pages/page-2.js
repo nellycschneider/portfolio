@@ -8,11 +8,11 @@ const SecondPage = () => {
   return (
     <Layout pageName="two">
       <Helmet>
-        <title>Page Two</title>
+        <title>Portfolio</title>
       </Helmet>
       <Container>
-        <h1>Page Two</h1>
-        <p>Welcome to page 2</p>
+        <h1>Portfolio</h1>
+        <p>Welcome to my portfolio</p>
       </Container>
     </Layout>
   );

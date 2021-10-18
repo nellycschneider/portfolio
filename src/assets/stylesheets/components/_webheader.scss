@@ -1,0 +1,24 @@
+.web {
+  display: flex;
+  // to take the entire available width
+  flex: 1;
+  align-items: center;
+}
+
+.web-options {
+  font-size: 20px;
+  margin-right: 16px;
+  font-weight: 700;
+
+  a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+  }
+}
+
+// remove margin on last child/option
+.web-options:last-child {
+  margin-right: 0px;
+}

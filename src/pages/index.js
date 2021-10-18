@@ -1,38 +1,38 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
 
 import Layout from 'components/Layout';
-import Container from 'components/Container';
+import AboutSection from '../components/AboutSection'
+import ProjectsSection from '../components/ProjectsSection'
+import SkillsSection from '../components/SkillsSection'
+import WorkSection from '../components/WorkSection'
+import ContactSection from '../components/ContactSection'
+import Footer from '../components/Footer'
 
-import img_gatsby from 'assets/images/gatsby-astronaut.png';
+import img_profile from 'assets/images/creepy_profile_pic.png';
 
 const IndexPage = () => {
   return (
     <Layout pageName="home">
-      <Helmet>
-        <title>Home Page</title>
-      </Helmet>
-      <Container>
-        <p className="gatsby-astronaut">
-          <img src={img_gatsby} alt="Build with Gatsby!" />
-        </p>
-        <h1>Gatsby Sass Starter</h1>
-        <p>
-          Welcome to your new Gatsby site.
-        </p>
-        <p>
-          Now go build something great.
-        </p>
-        <h2>Still Getting Started?</h2>
-        <p>
-          Run the following in your terminal!
-        </p>
-        <pre>
-          <code>
-            gatsby new [directory] https://github.com/colbyfayock/gatsby-starter-sass
-          </code>
-        </pre>
-      </Container>
+      <div className="red-circle"></div>
+      <div className="yellow-circle"></div>
+      <div className="green-circle"></div>
+      <div className="body">
+      <section id="about">
+        <AboutSection/>
+      </section>
+      <section id="projects">
+        <ProjectsSection/>
+      </section>
+      <section id="skills">
+        <SkillsSection/>
+        </section>
+      {/* <section id="work">
+        <WorkSection/>
+      </section>  */}
+      <section id="contact">
+        <ContactSection/>
+        </section>
+      </div>
     </Layout>
   );
 };
