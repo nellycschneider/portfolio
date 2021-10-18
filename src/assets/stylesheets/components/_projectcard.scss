@@ -30,7 +30,7 @@
 
 .project-info {
   margin-right: 24px;
-  background-color: rgba(255, 207, 77, 0.25);
+  //   background-color: rgba(255, 207, 77, 0.25);
   padding: 24px;
   border-style: dotted;
   border-color: white;
@@ -45,7 +45,7 @@
 
 .project-tags {
   display: flex;
-  max-width: 60%;
+  max-width: 80%;
   flex-wrap: wrap;
 }
 
@@ -115,7 +115,9 @@
     margin: 0px;
     margin-top: 12px;
     max-width: 100%;
+    padding: 24px 36px;
   }
+
   .project-tags {
     max-width: 100%;
   }

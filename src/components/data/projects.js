@@ -3,7 +3,7 @@ export const ProjectData = [
     id: 1,
     title: "Digital Art",
     about:
-      "I've been drawing for as long as I can remember. About a year ago I decided to start selling some of my designs on Redbubble too. Here are some of my more recent (digital) artworks!",
+      "I've been making art for as long as I can remember, mostly with traditional mediums like watercolour or liners. About a year ago I tried drawing digitally for the first time and fell in love with the endless the possibilities of it. Shortly after I decided to start selling some of my designs on Redbubble. Below are the link to my shop and to some of my (more recent) digital artworks :)",
     button:
       "https://drive.google.com/drive/folders/1Oa1DzKGkJ7K1VdQROjF66Q7e7kCN1CSf",
         image: require("../../assets/images/bag.png"),
