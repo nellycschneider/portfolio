@@ -18,7 +18,7 @@ function MobileHeader({ isOpen, setIsOpen }) {
           <Link href="#work">Work</Link>
         </div> */}
         <div className="mobile-option">
-          <Link to="#skills">Skills</Link>{" "}
+          <Link to="#skills">Experience</Link>{" "}
         </div>
         <div className="mobile-option">
           <Link href="#contact">Contact</Link>

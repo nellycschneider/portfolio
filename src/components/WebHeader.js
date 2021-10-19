@@ -8,7 +8,7 @@ function WebHeader() {
         <Link to="#projects">Projects</Link>
       </div> */}
       <div className="web-options">
-        <Link to="#skills">Skills</Link>{" "}
+        <Link to="#skills">Experience</Link>{" "}
       </div>
       {/* <div className="web-options">
         <Link href="#work">Work</Link>
