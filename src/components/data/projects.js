@@ -27,7 +27,7 @@ export const ProjectData = [
   },
   {
     id: 3,
-    title: "Product Designer",
+    title: "Product Design",
     about:
       "Shortly after I tried digital art for the first time I started selling some of my designs on Redbubble. Link to the shop is below!",
 
