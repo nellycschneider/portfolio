@@ -40,15 +40,14 @@
   //   border-color: rgb(127, 255, 244);
   margin-top: 24px;
   cursor: require("../../images/curly_cursor.png"), pointer;
+  text-decoration: none;
+  color: black;
+}
 
-  a {
-    text-decoration: none;
-    color: black;
-  }
-  a:hover {
-    text-decoration: none;
-    color: white;
-  }
+.download:hover {
+  text-decoration: none;
+  border-color: black;
+  color: white;
 }
 
 .contact-bottom {

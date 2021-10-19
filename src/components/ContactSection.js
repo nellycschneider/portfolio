@@ -12,11 +12,9 @@ function ContactSection() {
           <div className="contact-bottom">
             <SocialMediaSection />
           </div>
-        <div className="download">
-          <a download="Nelly_Schneider_resume" href={resume}>
+          <a className="download" download="Nelly_Schneider_resume" href={resume}>
             Download resume
           </a>
-        </div>
         </div>
       </div>
     </div>
