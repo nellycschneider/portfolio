@@ -3,7 +3,7 @@ export const ProjectData = [
     id: 1,
     title: "Digital Artist",
     about:
-      "I've been making art for as long as I can remember, mostly with traditional mediums like watercolour or liners. About a year ago I tried drawing digitally for the first time and fell in love with the endless the possibilities of it.",
+      "I've been making art for as long as I can remember, mostly with traditional mediums like watercolour or liners. About a year ago I tried drawing digitally for the first time and fell in love with the endless possibilities of it.",
     button:
       "https://drive.google.com/drive/folders/1Oa1DzKGkJ7K1VdQROjF66Q7e7kCN1CSf",
     image: require("../../assets/images/creepy_face.png"),
