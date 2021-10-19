@@ -5,7 +5,7 @@ function SkillsSection() {
   const data = SkillsData;
   return (
       <div className="skills">
-      <label className="section-title">Skills</label>
+      <label className="section-title">Experience</label>
       {data.map((skills) => {
         return (
           <>
