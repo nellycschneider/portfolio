@@ -4,9 +4,9 @@ import { Link } from "gatsby";
 function WebHeader() {
   return (
     <div className="web">
-      {/* <div className="web-options">
+      <div className="web-options">
         <Link to="#projects">Projects</Link>
-      </div> */}
+      </div>
       <div className="web-options">
         <Link to="#skills">Experience</Link>{" "}
       </div>
