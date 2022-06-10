@@ -9,7 +9,12 @@ function AboutSection() {
     const splitter = new GraphemeSplitter();
     return splitter.splitGraphemes(string);
   }
-  const typewriter = ["junior web developer", "musician", "artist", "creative person :)"];
+  const typewriter = [
+    "(frontent) developer",
+    "musician",
+    "artist",
+    "creative person :)",
+  ];
   return (
     <div className="about">
       <div className="about-top">
@@ -19,10 +24,10 @@ function AboutSection() {
             <br />
             I'm <span className="nelly">Nelly</span>
           </h2>
-                  {/* <p>
+          {/* <p>
                       
             </p> */}
-                           <Typewriter
+          <Typewriter
             //   css={typewriter}
             options={{
               strings: typewriter,
@@ -32,7 +37,7 @@ function AboutSection() {
               stringSplitter,
             }}
           />
-                      {/* junior<span className="web-developer"> web developer</span>,{" "}
+          {/* junior<span className="web-developer"> web developer</span>,{" "}
             <span className="musician">musician</span>,<br />
             <span className="artist">artist</span> and all around{" "}
             <span className="creative-person">creative person</span> */}
