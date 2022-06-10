@@ -2,7 +2,7 @@ export const SkillsData = [
   {
     id: 1,
     title: "Frontend",
-    skills: ["ReactJS", "JavaScript", "Typescript", "HTML", "CSS"],
+    skills: ["ReactJS", "React Native", "Typescript", "HTML", "CSS"],
   },
   {
     id: 2,
@@ -12,6 +12,11 @@ export const SkillsData = [
   {
     id: 3,
     title: "Other/Soft skills",
-    skills: ["Procreate", "Adobe Premiere Pro", "listening", "creative thinking"],
+    skills: [
+      "Procreate",
+      "Adobe Premiere Pro",
+      "listening",
+      "creative thinking",
+    ],
   },
 ];

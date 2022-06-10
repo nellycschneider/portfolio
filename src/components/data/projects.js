@@ -15,7 +15,7 @@ export const ProjectData = [
       "Nuri is the app to manage, save and grow your money. Invest in cryptocurrencies, create savings plans & earn up to 5% interest per year on bitcoin directly from a German bank account.",
     tags: [
       "ReactJS",
-      "JavaScript",
+      "React Native",
       "NodeJs",
       "GraphQL",
       "Typescript",
