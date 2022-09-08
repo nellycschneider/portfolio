@@ -3,6 +3,7 @@ import Typewriter from "typewriter-effect";
 import GraphemeSplitter from "grapheme-splitter";
 
 import img_profile from "assets/images/nelly_moon.png";
+import nelly_font from "assets/images/test_nelly.png";
 
 function AboutSection() {
   function stringSplitter(string) {
@@ -24,6 +25,10 @@ function AboutSection() {
             <br />
             I'm <span className="nelly">Nelly</span>
           </h2>
+
+          {/* <div className="nelly-font">
+            <img src={nelly_font} />
+          </div> */}
           {/* <p>
                       
             </p> */}

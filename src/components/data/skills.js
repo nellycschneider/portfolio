@@ -15,8 +15,9 @@ export const SkillsData = [
     skills: [
       "Procreate",
       "Adobe Premiere Pro",
-      "listening",
+      "teamwork",
       "creative thinking",
+      "Blender (a little bit)",
     ],
   },
 ];

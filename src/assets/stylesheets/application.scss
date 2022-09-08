@@ -69,13 +69,13 @@ html {
   margin: auto;
 
   // screens smaller than laptop
-  @media only screen and(max-width: 1024px) {
+  @media only screen and (max-width: 1024px) {
     .page-home {
       width: 90%;
     }
   }
   // screens smaller than tablet
-  @media only screen and(max-width: 512px) {
+  @media only screen and (max-width: 512px) {
     .page-home {
       width: 100%;
     }

@@ -4,16 +4,18 @@ import { SkillsData } from "../components/data/skills";
 function SkillsSection() {
   const data = SkillsData;
   return (
-      <div className="skills">
-      <label className="section-title">Experience</label>
+    <div className="skills">
+      <label className="section-title experience">Experience</label>
       {data.map((skills) => {
         return (
           <>
             <label className="title">{skills.title}</label>
-            <div className="all-skills">
-              {skills.skills.map((tag) => {
-                return <label className="all-skills-2">{tag}</label>;
-              })}
+            <div className="skills-row">
+              <div className="all-skills">
+                {skills.skills.map((tag) => {
+                  return <label className="all-skills-2">{tag}</label>;
+                })}
+              </div>
             </div>
           </>
         );
