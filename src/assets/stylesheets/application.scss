@@ -37,6 +37,28 @@ html {
       rgba(252, 137, 248, 0.5) 100%
     );
 
+  // rgba(245, 238, 99, 0.5)
+  // background-color: rgb(193, 196, 255);
+
+  // --s: 140px; /* control the size */
+  // --c: rgba(255, 255, 255, 0.5); /* first color */
+
+  // --_g: #0000 52%, var(--c) 54% 57%, #0000 59%;
+  // background: radial-gradient(farthest-side at -33.33% 50%, var(--_g)) 0
+  //     calc(var(--s) / 2),
+  //   radial-gradient(farthest-side at 50% 133.33%, var(--_g)) calc(var(--s) / 2)
+  //     0,
+  //   radial-gradient(farthest-side at 133.33% 50%, var(--_g)),
+  //   radial-gradient(farthest-side at 50% -33.33%, var(--_g)),
+  //   linear-gradient(
+  //     180deg,
+  //     rgba(255, 244, 141, 0.2) 0%,
+  //     rgba(154, 250, 255, 0.5) 50%,
+  //     rgba(252, 137, 248, 0.5) 100%
+  //   ); /* second color */
+  // background-size: calc(var(--s) / 4.667) var(--s),
+  //   var(--s) calc(var(--s) / 4.667);
+
   .red-circle {
     width: 15vw;
     height: 15vw;
