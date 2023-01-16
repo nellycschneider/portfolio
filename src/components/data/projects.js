@@ -10,20 +10,18 @@ export const ProjectData = [
   },
   {
     id: 1,
-    title: "Fullstack Web Developer",
-    about:
-      "Nuri is the app to manage, save and grow your money. Invest in cryptocurrencies, create savings plans & earn up to 5% interest per year on bitcoin directly from a German bank account.",
+    title: "Frontend Developer",
+    about: "Climaider is a rapidly growing subscription based carbon offset company. We build momentum to take climate action all around the world. With the ambition to become the most impactful company in stopping global warming, we make it simple for individuals and businesses to take action and fight for a sustainable future.",
     tags: [
       "ReactJS",
       "React Native",
       "NodeJs",
-      "GraphQL",
       "Typescript",
       "HTML",
       "CSS",
     ],
-    demo: "https://nuri.com/",
-    image: require("../../assets/images/nuri.png"),
+    demo: "https://climaider.com/",
+    image: require("../../assets/images/climaider.png"),
   },
   {
     id: 3,

@@ -8,13 +8,34 @@ html {
 }
 
 :root {
-  background: linear-gradient(
-    180deg,
-    rgba(255, 244, 141, 0.2) 0%,
-    rgba(154, 250, 255, 0.5) 50%,
-    rgba(255, 89, 153, 0.8) 100%
-  );
-  background-color: white;
+  // background: linear-gradient(
+  //   180deg,
+  //   rgba(255, 244, 141, 0.2) 0%,
+  //   rgba(154, 250, 255, 0.5) 50%,
+  //   rgba(255, 89, 153, 0.8) 100%
+  // );
+  // background-color: white;
+
+  background: repeating-linear-gradient(
+      to right,
+      transparent,
+      transparent 30px,
+      rgba(255, 255, 255, 0.5) 30px,
+      rgba(255, 255, 255, 0.5) 35px
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      transparent,
+      transparent 30px,
+      rgba(255, 255, 255, 0.5) 30px,
+      rgba(255, 255, 255, 0.5) 35px
+    ),
+    linear-gradient(
+      180deg,
+      rgba(255, 244, 141, 0.2) 0%,
+      rgba(154, 250, 255, 0.5) 50%,
+      rgba(252, 137, 248, 0.5) 100%
+    );
 
   .red-circle {
     width: 15vw;
