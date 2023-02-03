@@ -23,6 +23,8 @@ h2 {
   // );
   // -webkit-background-clip: text;
   // -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px black;
+  -webkit-text-fill-color: white;
 }
 
 p {
@@ -44,6 +46,7 @@ p {
     border-radius: 50%;
     margin-right: 64px;
     padding-bottom: 100px;
+    padding-top: 30px;
   }
 }
 
@@ -52,9 +55,6 @@ p {
 
   img {
     width: 450px;
-    // border-radius: 50%;
-    // margin-right: 64px;
-    // padding-bottom: 100px;
   }
 }
 
@@ -76,7 +76,7 @@ p {
 
   .about-photo {
     height: 250px;
-    padding-top: 24px;
+    // padding-top: 24px;
 
     img {
       width: 250px;
