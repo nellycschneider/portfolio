@@ -10,7 +10,7 @@ function AboutSection() {
     return splitter.splitGraphemes(string);
   }
   const typewriter = [
-    "(frontent) developer",
+    "(frontend) developer",
     "musician",
     "artist",
     "creative person :)",
