@@ -1,7 +1,7 @@
 import React from "react";
 import SocialMediaSection from "./SocialMediaSection";
 
-import resume from "../assets/resume.pdf";
+import resume from "../assets/Nelly_Schneider_Frontend_Resume.pdf";
 
 function ContactSection() {
   return (
