@@ -26,9 +26,6 @@ const IndexPage = () => {
       <section id="skills">
         <SkillsSection/>
         </section>
-      {/* <section id="work">
-        <WorkSection/>
-      </section>  */}
       <section id="contact">
         <ContactSection/>
         </section>
