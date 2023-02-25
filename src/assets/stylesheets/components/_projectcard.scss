@@ -58,11 +58,19 @@
   font-weight: bold;
 }
 
+.project-title:hover {
+  cursor: url(../images/sym596.png), auto;
+}
+
 .project-tags {
   display: flex;
   max-width: 80%;
   flex-wrap: wrap;
 }
+
+.tag:hover {
+  cursor: url(../images/sym598.png), auto;
+} 
 
 .tag {
   padding: 4px 8px;
@@ -107,6 +115,7 @@
   a:hover {
     text-decoration: none;
     color: white;
+    cursor: url(../images/sym599.png), auto;
   }
 }
 
@@ -142,4 +151,5 @@
 .section-title,
 projects {
   margin-top: 36px;
+  cursor: url(../images/sym596.png), auto;
 }

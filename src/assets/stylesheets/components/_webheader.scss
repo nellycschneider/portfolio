@@ -16,6 +16,10 @@
     display: flex;
     align-items: center;
   }
+
+  a:hover {
+    cursor: url(../images/sym599.png), auto;
+  }
 }
 
 // remove margin on last child/option
