@@ -10,18 +10,11 @@ export const ProjectData = [
   },
   {
     id: 1,
-    title: "Frontend Developer",
-    about: "Climaider is a rapidly growing subscription based carbon offset company. We build momentum to take climate action all around the world. With the ambition to become the most impactful company in stopping global warming, we make it simple for individuals and businesses to take action and fight for a sustainable future.",
-    tags: [
-      "ReactJS",
-      "React Native",
-      "NodeJs",
-      "Typescript",
-      "HTML",
-      "CSS",
-    ],
-    demo: "https://climaider.com/",
-    image: require("../../assets/images/climaider.png"),
+    title: "AR/VR/XR Development & Design Student",
+    about: "The AR/VR/XR Development & Design Bachelor's program covers the fundamentals of Augmented, Mixed, and Virtual Reality, along with foundational design principles. It includes courses in computer graphics, software engineering, and Unity application development in the early stages. Later, students explore advanced topics like 3D Interaction Design, User Experience (UX) principles, and ethical considerations. Elective modules in Manufacturing, Healthcare, or Game Development provide opportunities for specialization.",
+    tags: [],
+    demo: "https://www.iu-fernstudium.de/bachelor/arvrxr-development-design/",
+    image: require("../../assets/images/IU.png"),
   },
   {
     id: 3,

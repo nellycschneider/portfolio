@@ -2,12 +2,12 @@ export const SkillsData = [
   {
     id: 1,
     title: "Frontend",
-    skills: ["ReactJS", "React Native", "Typescript", "HTML", "CSS"],
+    skills: ["ReactJS", "React Native", "Typescript", "HTML", "CSS", "React Three Fiber"],
   },
   {
     id: 2,
     title: "Backend",
-    skills: ["NodeJs", "GraphQL"],
+    skills: ["NodeJs", "GraphQL", "Firebase"],
   },
   {
     id: 3,

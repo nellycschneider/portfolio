@@ -1,7 +1,7 @@
 import React from "react";
 import SocialMediaSection from "./SocialMediaSection";
 
-import resume from "../assets/Nelly_Schneider_Frontend_Resume.pdf";
+import resume from "../assets/Nelly_Schneider_Frontend_Developer_Resume.pdf";
 
 function ContactSection() {
   return (
@@ -14,7 +14,7 @@ function ContactSection() {
           </div>
           <a
             className="download"
-            download="Nelly_Schneider_resume"
+            download="Nelly_Schneider_Frontend_Developer_Resume"
             href={resume}
           >
             Download resume
